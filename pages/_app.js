@@ -14,9 +14,6 @@ function MyApp({ Component, pageProps }) {
 				<Menu.Item>
 					<Link href="/">Index</Link>
 				</Menu.Item>
-				<Menu.Item>
-					<Link href="/oldIndex">Old Index</Link>
-				</Menu.Item>
 			</Menu>
 			<Container>
 				<Component {...pageProps} />
