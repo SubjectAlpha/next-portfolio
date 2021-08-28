@@ -73,20 +73,12 @@ export default function Index() {
                                     </IconButton>
                                 </Tooltip>
                             </a>
-                            <a rel="noreferrer" target="_blank" href="https://www.instagram.com/jakestarr60/">
-                                <Tooltip title="View my Instagram">
-                                    <IconButton color="secondary" aria-label="twitter profile link" component="span">
-                                        <Instagram style={{ fontSize: 70 }}/>
-                                    </IconButton>
-                                </Tooltip>
-                            </a>
                             <a rel="noreferrer" target="_blank" href="mailto:contact@jacobstarr.me">
                                 <Tooltip title="Send me an email">
                                     <IconButton color="secondary" aria-label="link to email me" component="span">
                                         <Mail style={{ fontSize: 70 }}/>
                                     </IconButton>
                                 </Tooltip>
-                                
                             </a>
                             <a rel="noreferrer" target="_blank" href="https://docs.google.com/document/d/1YPvDvD7ocY9cG3K2YU_BaCoIkivVGlltO0liyKGYdwQ/edit?usp=sharing">
                                 <Tooltip title="View my resume">
