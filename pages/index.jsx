@@ -97,12 +97,12 @@ export default function Index() {
                             </a>
                         </Box>
                         <br/>
-						<Typist>
-                            <code>&emsp;Hello my name is Jacob Starr, and I'm a web developer based in Midland, Michigan, USA.</code>
+						<Typist style={{fontSize: "24px"}}>
+                            <p>Hello my name is Jacob Starr, and I&apos;m a web developer based in Midland, Michigan, USA.</p>
 						</Typist>
                         <br/>
                         <p>
-                            <code>I have a diverse set of languages under my belt ranging from HTML5/CSS3/Javascript to the C family, PHP, Java, Python, and more. I'm also a trained system and network administrator for both Windows and Linux.</code>
+                            I have a diverse set of languages under my belt ranging from HTML5/CSS3/Javascript to the C family, PHP, Java, Python, and more. I&apos;m also a trained system and network administrator for both Windows and Linux.
                         </p>
 					</Grid>
 				</Grid>
