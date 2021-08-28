@@ -10,12 +10,12 @@ function MyApp({ Component, pageProps }) {
 	];
 	return (
 		<div>
-			<Menu>
-				<Menu.Item>
-					<Link href="/">Index</Link>
-				</Menu.Item>
-			</Menu>
 			<Container>
+				<Menu>
+					<Menu.Item>
+						<Link href="/">Index</Link>
+					</Menu.Item>
+				</Menu>
 				<Component {...pageProps} />
 			</Container>
 		</div>
