@@ -47,8 +47,6 @@ function MyApp({ Component, pageProps }) {
                 <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet"/> 
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
                 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-
-                <script src="https://cdn.rawgit.com/progers/pathseg/master/pathseg.js"></script>
             </Helmet>
             <div className={classes.root} style={{minHeight:"105vh"}}>
                 <ThemeProvider theme={newTheme}>
