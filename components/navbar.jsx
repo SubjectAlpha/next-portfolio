@@ -12,7 +12,7 @@ export default function Navbar(props){
                     <h1 className="name-header">Jacob Starr</h1>
                 </Grid>
                 <Grid item xs={2}>
-                    <a target="_blank" href="http://www.google.com/">
+                    <a rel="noreferrer" target="_blank" href="http://www.google.com/">
                         <IconButton color="secondary" aria-label="linked in profile link" component="span">
                             <LinkedInIcon style={{ fontSize: 40 }}/>
                         </IconButton>
