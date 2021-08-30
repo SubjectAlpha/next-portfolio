@@ -49,7 +49,7 @@ export default function Index() {
 					// justifyContent="center"
 				>
 					<Grid item xs={6}>
-                        <h1 className="name-header" style={{fontSize: "120px"}}>Jacob Starr</h1>
+                        <h1 className="name-header">Jacob Starr</h1>
                         <Box p={3} m={5}>
                             <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/jacobstarr60/">
                                 <Tooltip title="Visit my LinkedIn">
