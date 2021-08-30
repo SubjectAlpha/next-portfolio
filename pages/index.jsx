@@ -6,7 +6,7 @@ import Tooltip from '@material-ui/core/Tooltip';
 import { GitHub, LinkedIn, Twitter, Instagram, Mail, Description } from "@material-ui/icons";
 import { Container, Grid, Box } from "@material-ui/core";
 import Link from 'next/link';
-import { Helmet } from "react-helmet";
+import Head from "next/head";
 
 const particleParams = {
     particles: {
@@ -30,9 +30,9 @@ const particleParams = {
 export default function Index() {
 	return (
 		<React.Fragment>
-			<Helmet>
+			<Head>
 				<title>Jacob Starr</title>
-			</Helmet>
+			</Head>
 			<Particles
 				style={{ minHeight: "100vh", position: "absolute", zIndex:0}}
 				params={particleParams}
