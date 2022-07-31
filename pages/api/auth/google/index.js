@@ -18,12 +18,12 @@ const config = {
 };
 
 export default async function handler(req, res) {
+	res.redirect("/");
 	const client = new AuthorizationCode(config);
 
 	const authorizationUri = client.authorizeURL({
 		redirect_uri: "http://localhost:3000/api/auth/callback",
 		scope: "https://www.googleapis.com/auth/calendar.events.readonly",
-		state: "googleState",
 	});
 
 	res.redirect(authorizationUri);
